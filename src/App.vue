@@ -5,6 +5,8 @@
     <BlogPage />
 
     <BlogDetailsPage />
+
+    <ProjectPage />
   </div>
 </template>
 
@@ -12,6 +14,7 @@
 import BlogDetailsPage from './components/BlogDetailsPage.vue';
 import BlogPage from './components/BlogPage.vue';
 import HomePage from './components/HomePage.vue';
+import ProjectPage from './components/ProjectPage.vue';
 
 
 
@@ -21,7 +24,8 @@ export default {
   components: {
     HomePage,
     BlogPage,
-    BlogDetailsPage
+    BlogDetailsPage,
+    ProjectPage,
   }
 }
 </script>
